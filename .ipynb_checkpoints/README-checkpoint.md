@@ -1,4 +1,3 @@
-````md
 # IPL Data Analyzer
 
 A beginner-friendly Python project built using **Pandas** and **JupyterLab** to analyze IPL match data from **2008–2017**.
