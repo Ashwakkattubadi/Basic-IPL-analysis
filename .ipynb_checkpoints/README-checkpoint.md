@@ -1,13 +1,14 @@
+````md
 # IPL Data Analyzer
 
-A beginner-friendly Python project built using **Pandas** to analyze IPL match data from **2008–2017**.
+A beginner-friendly Python project built using **Pandas** and **JupyterLab** to analyze IPL match data from **2008–2017**.
 
 This project allows users to explore IPL statistics such as:
 
-* Team with most wins
-* Most wins in a season
-* IPL season winners
-* Match details between two teams
+- Team with most wins
+- Most wins in a season
+- IPL season winners
+- Match details between two teams
 
 ---
 
@@ -29,12 +30,12 @@ Shows the IPL champion for a selected season.
 
 Displays:
 
-* Match winner
-* Winning margin
-* Toss winner
-* Toss decision
-* Player of the match
-* Match venue
+- Match winner
+- Winning margin
+- Toss winner
+- Toss decision
+- Player of the match
+- Match venue
 
 between two selected teams in a selected season.
 
@@ -42,9 +43,10 @@ between two selected teams in a selected season.
 
 ## Technologies Used
 
-* Python
-* Pandas
-* CSV Dataset
+- Python
+- Pandas
+- JupyterLab
+- CSV Dataset
 
 ---
 
@@ -52,9 +54,15 @@ between two selected teams in a selected season.
 
 Dataset used:
 
-* `matches.csv`
+- `matches.csv`
 
 Contains IPL match data from 2008–2017.
+
+---
+
+## Repository Name
+
+`Basic-IPL-analysis`
 
 ---
 
@@ -63,26 +71,36 @@ Contains IPL match data from 2008–2017.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ipl-data-analyzer.git
+git clone https://github.com/Ashwakkattubadi/Basic-IPL-analysis.git
 ```
 
 ### 2. Move into Project Folder
 
 ```bash
-cd ipl-data-analyzer
+cd Basic-IPL-analysis
 ```
 
-### 3. Install Pandas
+### 3. Install Required Libraries
 
 ```bash
 pip install pandas
 ```
 
-### 4. Run the Program
+### 4. Open JupyterLab
 
 ```bash
-python main.py
+jupyter lab
 ```
+
+### 5. Open the Notebook File
+
+Open:
+
+```text
+ipl.ipynb
+```
+
+Run the notebook cells to use the IPL Data Analyzer.
 
 ---
 
@@ -115,15 +133,15 @@ Match venue = Wankhede Stadium
 
 This project helped practice:
 
-* Data cleaning with Pandas
-* Filtering data
-* Conditional statements
-* Functions
-* User input handling
-* Series and DataFrame operations
-* `value_counts()`
-* `idxmax()`
-* Handling missing values
+- Data cleaning with Pandas
+- Filtering data
+- Conditional statements
+- Functions
+- User input handling
+- Series and DataFrame operations
+- `value_counts()`
+- `idxmax()`
+- Handling missing values
 
 ---
 
@@ -131,14 +149,15 @@ This project helped practice:
 
 Possible future upgrades:
 
-* Add matplotlib visualizations
-* Create a GUI using Tkinter
-* Convert into a web app using Flask
-* Add player statistics analysis
-* Support latest IPL seasons
+- Add matplotlib visualizations
+- Create a GUI using Tkinter
+- Convert into a web app using Flask
+- Add player statistics analysis
+- Support latest IPL seasons
 
 ---
 
 ## Author
 
-Made by Ashwak Kattubadi
+Made by **Ashwak Kattubadi**
+````
