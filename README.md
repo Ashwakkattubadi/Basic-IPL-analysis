@@ -1,176 +1,144 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "ef7463e6-bad8-45f8-9d3f-d4cad5cdeb7e",
-   "metadata": {},
-   "source": [
-    "# IPL Data Analyzer\n",
-    "\n",
-    "A beginner-friendly Python project built using **Pandas** to analyze IPL match data from **2008–2017**.\n",
-    "\n",
-    "This project allows users to explore IPL statistics such as:\n",
-    "\n",
-    "* Team with most wins\n",
-    "* Most wins in a season\n",
-    "* IPL season winners\n",
-    "* Match details between two teams\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Features\n",
-    "\n",
-    "### 1. Most Wins Overall\n",
-    "\n",
-    "Displays the team with the highest number of wins in IPL history.\n",
-    "\n",
-    "### 2. Most Wins in a Season\n",
-    "\n",
-    "Finds which team won the most matches in a specific IPL season.\n",
-    "\n",
-    "### 3. Season Winner\n",
-    "\n",
-    "Shows the IPL champion for a selected season.\n",
-    "\n",
-    "### 4. Match Winner Details\n",
-    "\n",
-    "Displays:\n",
-    "\n",
-    "* Match winner\n",
-    "* Winning margin\n",
-    "* Toss winner\n",
-    "* Toss decision\n",
-    "* Player of the match\n",
-    "* Match venue\n",
-    "\n",
-    "between two selected teams in a selected season.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Technologies Used\n",
-    "\n",
-    "* Python\n",
-    "* Pandas\n",
-    "* CSV Dataset\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Dataset\n",
-    "\n",
-    "Dataset used:\n",
-    "\n",
-    "* `matches.csv`\n",
-    "\n",
-    "Contains IPL match data from 2008–2017.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## How to Run\n",
-    "\n",
-    "### 1. Clone the Repository\n",
-    "\n",
-    "```bash\n",
-    "git clone https://github.com/your-username/ipl-data-analyzer.git\n",
-    "```\n",
-    "\n",
-    "### 2. Move into Project Folder\n",
-    "\n",
-    "```bash\n",
-    "cd ipl-data-analyzer\n",
-    "```\n",
-    "\n",
-    "### 3. Install Pandas\n",
-    "\n",
-    "```bash\n",
-    "pip install pandas\n",
-    "```\n",
-    "\n",
-    "### 4. Run the Program\n",
-    "\n",
-    "```bash\n",
-    "python main.py\n",
-    "```\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Sample Menu\n",
-    "\n",
-    "```text\n",
-    "---------IPL DATA (2008 - 2017)---------\n",
-    "\n",
-    "1) Most wins so far\n",
-    "2) Most wins in a season\n",
-    "3) Season Winner\n",
-    "4) Match winner\n",
-    "```\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Sample Output\n",
-    "\n",
-    "```text\n",
-    "Winner of the First Match is Mumbai Indians\n",
-    "Won by 5 Wickets\n",
-    "Toss winner = Rajasthan Royals and they decided to bat first\n",
-    "Player of the match = Sachin Tendulkar\n",
-    "Match venue = Wankhede Stadium\n",
-    "```\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Concepts Practiced\n",
-    "\n",
-    "This project helped practice:\n",
-    "\n",
-    "* Data cleaning with Pandas\n",
-    "* Filtering data\n",
-    "* Conditional statements\n",
-    "* Functions\n",
-    "* User input handling\n",
-    "* Series and DataFrame operations\n",
-    "* `value_counts()`\n",
-    "* `idxmax()`\n",
-    "* Handling missing values\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Future Improvements\n",
-    "\n",
-    "Possible future upgrades:\n",
-    "\n",
-    "* Add matplotlib visualizations\n",
-    "* Create a GUI using Tkinter\n",
-    "* Convert into a web app using Flask\n",
-    "* Add player statistics analysis\n",
-    "* Support latest IPL seasons\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Author\n",
-    "\n",
-    "Made by Ashwak Kattubadi\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python [conda env:base] *",
-   "language": "python",
-   "name": "conda-base-py"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# IPL Data Analyzer
+
+A beginner-friendly Python project built using **Pandas** to analyze IPL match data from **2008–2017**.
+
+This project allows users to explore IPL statistics such as:
+
+* Team with most wins
+* Most wins in a season
+* IPL season winners
+* Match details between two teams
+
+---
+
+## Features
+
+### 1. Most Wins Overall
+
+Displays the team with the highest number of wins in IPL history.
+
+### 2. Most Wins in a Season
+
+Finds which team won the most matches in a specific IPL season.
+
+### 3. Season Winner
+
+Shows the IPL champion for a selected season.
+
+### 4. Match Winner Details
+
+Displays:
+
+* Match winner
+* Winning margin
+* Toss winner
+* Toss decision
+* Player of the match
+* Match venue
+
+between two selected teams in a selected season.
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* CSV Dataset
+
+---
+
+## Dataset
+
+Dataset used:
+
+* `matches.csv`
+
+Contains IPL match data from 2008–2017.
+
+---
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ipl-data-analyzer.git
+```
+
+### 2. Move into Project Folder
+
+```bash
+cd ipl-data-analyzer
+```
+
+### 3. Install Pandas
+
+```bash
+pip install pandas
+```
+
+### 4. Run the Program
+
+```bash
+python main.py
+```
+
+---
+
+## Sample Menu
+
+```text
+---------IPL DATA (2008 - 2017)---------
+
+1) Most wins so far
+2) Most wins in a season
+3) Season Winner
+4) Match winner
+```
+
+---
+
+## Sample Output
+
+```text
+Winner of the First Match is Mumbai Indians
+Won by 5 Wickets
+Toss winner = Rajasthan Royals and they decided to bat first
+Player of the match = Sachin Tendulkar
+Match venue = Wankhede Stadium
+```
+
+---
+
+## Concepts Practiced
+
+This project helped practice:
+
+* Data cleaning with Pandas
+* Filtering data
+* Conditional statements
+* Functions
+* User input handling
+* Series and DataFrame operations
+* `value_counts()`
+* `idxmax()`
+* Handling missing values
+
+---
+
+## Future Improvements
+
+Possible future upgrades:
+
+* Add matplotlib visualizations
+* Create a GUI using Tkinter
+* Convert into a web app using Flask
+* Add player statistics analysis
+* Support latest IPL seasons
+
+---
+
+## Author
+
+Made by Ashwak Kattubadi
