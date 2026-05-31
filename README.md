@@ -96,7 +96,7 @@ jupyter lab
 Open:
 
 ```text
-ipl.ipynb
+ipl_operations.ipynb
 ```
 
 Run the notebook cells to use the IPL Data Analyzer.
